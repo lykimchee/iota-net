@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>IoTa Net</title>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- MY LINKS -->
+    <link href="images/favicon.png" rel="icon">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="text-center next-steps-gradient">
+    <!-- NAVIGATION BAR -->
+    <div class="content-container d-flex w-100 h-auto p-3 mx-auto flex-column">
+      <header>
+        <img class="masthead-brand" src="images/iotanet.png" style="width: 160px; margin-bottom: 40px;">
+        <nav class="nav nav-masthead justify-content-center">
+          <a class="nav-link" href="index.html">HOME</a>
+          <a class="nav-link" href="our-product.html">OUR PRODUCT</a>
+          <a class="nav-link active" href="next-steps.html">NEXT STEPS</a>
+          <a class="nav-link" href="the-team.html">THE TEAM</a>
+        </nav>
+      </header>
+
+      <!-- HEADER -->
+      <main class="text-left" style="color: white; text-transform: uppercase;">
+        <h1 class="display-3 title-font mb-1" style="line-height: 85%;">Next Steps</h1>
+        <p style="font-size: 18px; margin-bottom: 20px;"><b>In the future, we hope to make IoTa Net a fully functional product.<br/>For more details on our product, please watch our video <a target="_blank" class="p-link" href="https://youtu.be/dQw4w9WgXcQ">here</a>.</b></p>
+      </main>
+
+      <!-- TEAM MEMBERS -->
+      <div class="text-left overflow-auto" style="color: white; text-transform: uppercase;">
+        <h4 class="title-font">1. Hardware</h4>
+        <p style="font-size: 17px; margin-bottom: 10px;">The main central routing device, the IoTa Net Hub, can be constructed by either an Arduino or a Raspberry Pi. The IoTa Net Hub connects to the user's WiFi network, searches for available IoT devices, then creates a Personal Area Network for the user. To communicate with our software application, all devices connected to the IoTa Net Hub will send and receive data through the MQTT (Message Queuing Telemetry Transport) Protocol.</p>
+
+        <h4 class="title-font">2. Software</h4>
+        <p style="font-size: 17px; margin-bottom: 10px;">The supplementary mobile application will allow users to manually search for and connect their IoT devices. It will also collect a variety of different data statistics, including but not limited to device status, power usage, network traffic, and temperature. These statistics will be displayed in a graph format, color-coded to indicate the severity level of a potential security threat. Underneath the graphs are security analytics for each respective statistic. The potential threats and color shades will be determined from a machine learning algorithm that acts as an anomaly-based intrusion detection system. For instance, if the network traffic is colored dark red, it would indicate the current network traffic greatly differs from the measured baseline. The user always has the option to review and manually override the threat if deemed a false positive as well. Lastly, under each statistic will be helpful tips to secure their device, such as recommending a reconfiguration of WiFi settings when the machine learning algorithm suspects an intrusion.</p>
+
+        <h4 class="title-font">3. User Manuals</h4>
+        <p style="font-size: 17px; margin-bottom: 10px;">The application will also consist of a search page, developed with web scraping algorithms. Here, the user will be able to find a trustworthy manual for their desired IoT device. Not only that, the web scraping algorithm will also notify the user regarding firmware updates when available, so all the user’s devices will always have the latest security patches.</p>
+      </div>
+    </div>
+    
+    <!-- JAVASCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

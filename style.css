@@ -1,0 +1,118 @@
+/**
+COLOR SCHEME
+- Dull Blue #2c9bda
+- Light Blue #30ecf0
+- Dark Gray #111112
+**/
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: -ms-flexbox;
+  display: flex;
+  color: #111112;
+  overflow-y: hidden;
+}
+
+html, body {
+  height: 100vh;
+  background-color: white;
+}
+
+h4 {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+a, a:focus, a:hover {
+  color: #111112;
+}
+
+.btn-secondary, .btn-secondary:hover, .btn-secondary:focus {
+  width: 190px;
+  color: white;
+  background-color: #2c9bda;
+  border: .05rem solid #2c9bda;
+  font-weight: bold;
+}
+
+/** CONTENT CONTAINER **/
+.content-container {
+  max-width: 70em;
+}
+
+/** NAV BAR **/
+.nav-masthead .nav-link {
+  padding: 1rem 0;
+  padding-bottom: 0.15rem;
+  color: #111112;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover, .nav-masthead .nav-link:focus {
+  border-bottom-color: #111112;
+  color: #111112;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: white;
+  border-bottom-color: white;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.p-link {
+  color: white;
+  text-decoration: underline;
+}
+
+.p-link:hover {
+  color: #111112;
+}
+
+/** SIZING FOR SMALLER SCREENS **/
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+/** WEBSITE HEADER **/
+.background-img {
+  background-image: url('images/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-font {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/** GRADIENTS **/
+.our-product-gradient {
+  background-image: linear-gradient(to bottom right, #c4f48e, #30ccf0);
+}
+
+.next-steps-gradient {
+  background-image: linear-gradient(to bottom right, #30ccf0, #aaebfa);
+}
+
+.the-team-gradient {
+  background-image: linear-gradient(to bottom right, #30ccf0, #c4f48e);
+}
+
+/** SCROLL BOX **/
+.overflow-auto {
+  height: 370px;
+}
